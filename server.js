@@ -13,6 +13,10 @@ app.use(cors());
 //     res.send("Hello World");
 //   })
 
+app.get("/dogs", (req, res) => {
+  res.send("WOOF WOOF");
+});
+
 app.get("/hello", (req, res) => {
   res.send("Hi Guys");
 });
