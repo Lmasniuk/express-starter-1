@@ -14,7 +14,7 @@ app.use(cors());
 //   })
 
 app.get("/dogs", (req, res) => {
-  res.send("WOOF WOOF");
+  res.send("RUFF RUFF");
 });
 
 app.get("/hello", (req, res) => {
