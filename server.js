@@ -17,6 +17,10 @@ app.get("/hello", (req, res) => {
   res.send("Hi Guys");
 });
 
+app.get("/cats", (req, res) => {
+  res.send("MEOW");
+});
+
 app.listen(PORT, () => {
   console.log("Server listening on: " + PORT);
 });
